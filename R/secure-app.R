@@ -85,7 +85,7 @@ secure_app <- function(ui,
               actionButton(
                 inputId = ".shinymanager_app",
                 label = lan$get("Go to application"),
-                icon = icon("user")
+                icon = icon("share")
               )
             ),
             shinymanager_where("admin")
